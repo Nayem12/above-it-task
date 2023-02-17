@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,300&family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0.top-bar;
+    background-color: #F7F2E9;
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar {
+    background-color: #403C34;
+    height: 60px;
+    color: #ffff;
+    display: flex;
+}
+
+.top-bar-section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* .top-bar-details {
+    display: flex;
+    flex-direction: column;
+} */
+
+.top-bar-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* .top-bar-li {
+    margin-left: 30px;
+} */
+
+.navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+    height: 100px;
+    align-items: center;
+}
+
+.navbar-width {
+    width: 85%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
+
+.logo-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 27px;
+}
+
+.banner-text {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.cafe {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #403C34;
+}
+
+.banner-text h1 {
+    font-family: 'Libre Baskerville';
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #2B292B;
+}
+
+.bannercoffee {
+    display: flex;
+    gap: 40px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 20px; */
+    margin-top: -20px;
+    color: #AC8435;
+}
+
+.details-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #403C34;
+}
+
+.get-now {
+    padding: 16px 40px;
+    background: #AC8435;
+    box-shadow: 0px 4px 6px rgba(211, 181, 120, 0.32);
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+}
+
+.Reservation {
+    padding: 16px 40px;
+    border: 1px solid #403C34;
+    border-radius: 4px;
+}
+
+.bannerbgimg {
+    position: relative;
+    width: 794px;
+    height: 450px;
+}
+
+.bannertopimg {
+    position: absolute;
+    top: 170px;
+    left: 720px;
+    width: 500px;
+    height: 500px;
+}
+
+.bannerimg1 {
+    width: 100%;
+    height: 100%;
+}
+
+.bannerimg2 {
+    width: 100%;
+    height: 100%;
+}
+
+.details-coffee {
+    background-image: url(images/0811229\ 1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.quote-position {
+    position: relative;
+}
+
+.quote-details {
+    position: absolute;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2B292B;
+    left: 310px;
+    top: 15px;
+}
+
+.quote-coma-left {
+    position: absolute;
+    left: 300px;
+    /* top: -50px; */
+}
+
+.quote-coma-right {
+    position: absolute;
+    left: 800px;
+    top: 140px;
+}
+
+.quate-coffe-img {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 107px;
+    height: 147px;
+}
+
+.bg-image {
+    background-image: url(images/bg-frame-image.png);
+    position: absolute;
+}
+
+.image-section {
+    width: 75%;
+    margin: auto;
+    margin-top: 180px;
+
+}
+
+.section-image {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.quote-bg-img {
+    width: 100%;
+}
+
+.section-image-1 {
+    /* background: linear-gradient(180deg, rgba(39, 39, 39, 0) 17.9%, rgba(15, 15, 15, 0.3) 69.07%), url(.jpg);
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.54));
+    border-radius: 8px; */
+    /* position: absolute; */
+    width: 100%;
+    margin-top: -14px;
+    margin-left: 12px;
+}
+
+.section-image-2 {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(39, 39, 39, 0) 36.4%, rgba(39, 39, 39, 0.49) 84.72%), url(.jpg);
+    border-radius: 8px;
+}
+
+.section-image-3 {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(39, 39, 39, 0) 36.4%, rgba(39, 39, 39, 0.49) 84.72%), url(.jpg);
+    border-radius: 8px;
+}
